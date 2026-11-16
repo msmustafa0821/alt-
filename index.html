@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>LocalLoop AI</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="phone" id="phone">
+  <div class="screen" id="screen"></div>
+  <div id="overlay"></div>
+  <button class="fab" id="fab" data-a="go" data-n="ai" aria-label="Ask LocalLoop AI">✨</button>
+  <nav class="nav" id="nav" style="display:none"></nav>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <input type="file" id="pick" accept="image/*" hidden>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
